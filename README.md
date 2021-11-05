@@ -1,7 +1,39 @@
-Customer Satisfaction Yojo
-==============================
+# Customer satisfaction prediction in an e-commerce site
 
-The object of this project is to develop a process to predict customer satisfaction based on both historical opinion and the characteristics of the purchasing.
+*Disclaimer: this project is part of Machine Learning course held by professor Carlo Vercellis and professor Mauricio Soto Able Gomez at Politecnico di milano (A. Y. 2021/2022). Yojo.com is an imaginal company, all references to actually existing companies are purely coincidental.*
+
+Yojo.com is an e-commerce that rely on customer satisfaction to gain competitive advantages on the competitors. The objective of this project is to find a model to predict customer satisfaction based on both historical opinion of the customer and the charactesistics of the purchases.
+
+The dataset is structured as follow:
+* `model.csv` contains 50,000 records with the respective target variable;
+* `predictions.csv' contains 20,000 records without target variable;
+* there are 19 features in the dataset, the last one is the target.
+
+| n    | Variable                      | Description                                                  |
+| :--- | :---------------------------- | :----------------------------------------------------------- |
+| 1    | id                            | Client ID                                                    |
+| 2    | Gender                        | Client Gender                                                |
+| 3    | Customer type                 | Client type: Premium or Standard                             |
+| 4    | Age                           | Client Age                                                   |
+| 5    | Price                         | Client Age                                                   |
+| 6    | New/Used                      | Client Age                                                   |
+| 7    | Category                      | Client Age                                                   |
+| 8    | Product description accuracy  | Level of satisfaction on product description                 |
+| 9    | Manufacturer stainability     | Level of satisfaction on the manufacturing sustainability process |
+| 10   | Packaging quality             | Level of satisfaction on packaging                           |
+| 11   | Additional options            | Level of satisfaction on extra options                       |
+| 12   | Reviews and ratings           | Level of satisfaction on reviews and rating information      |
+| 13   | Integrity of packaging        | Level of satisfaction on packaging state                     |
+| 14   | Check-out procedure           | Level of satisfaction on payment procedure                   |
+| 15   | Relevance of related products | Level of satisfaction on related product suggestion          |
+| 16   | Costumer insurance            | Level of satisfaction on insurance options                   |
+| 17   | Shipping delay in days        | Delay of shipping in days                                    |
+| 18   | Arrival delay in days         | Arrival delay on days                                        |
+| 19   | Satisfaction                  | Target: Satisfied, Not Satisfied                             |
+
+Model selection based on f1-score.
+
+
 
 Project Organization
 ------------
@@ -55,3 +87,4 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
