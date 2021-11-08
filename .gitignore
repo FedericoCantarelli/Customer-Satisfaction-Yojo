@@ -74,7 +74,7 @@ target/
 
 # Jupyter NB Checkpoints
 .ipynb_checkpoints/
-.virtual_documents
+.virtual_documents/
 
 
 # Mac OS-specific storage files
@@ -86,3 +86,6 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# Secondary files
+data/featuresselection.drawio
