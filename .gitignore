@@ -89,3 +89,4 @@ target/
 
 # Secondary files
 data/featuresselection.drawio
+.gitkeep
