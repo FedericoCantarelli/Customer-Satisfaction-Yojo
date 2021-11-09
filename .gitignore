@@ -90,3 +90,4 @@ target/
 # Secondary files
 data/featuresselection.drawio
 .gitkeep
+reports/figures/tree/
