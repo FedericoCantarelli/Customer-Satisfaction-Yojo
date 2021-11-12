@@ -15,11 +15,11 @@ The dataset is structured as follow:
 | 2    | Gender                        | Client Gender                                                |
 | 3    | Customer type                 | Client type: Premium or Standard                             |
 | 4    | Age                           | Client Age                                                   |
-| 5    | Price                         | Client Age                                                   |
-| 6    | New/Used                      | Client Age                                                   |
-| 7    | Category                      | Client Age                                                   |
+| 5    | Price                         | Amount of order                                                   |
+| 6    | New/Used                      | New or used condition of the purchased product                                                   |
+| 7    | Category                      | Purchased product category                                                   |
 | 8    | Product description accuracy  | Level of satisfaction on product description                 |
-| 9    | Manufacturer stainability     | Level of satisfaction on the manufacturing sustainability process |
+| 9    | Manufacturer sustainability   | Level of satisfaction on the manufacturing sustainability process |
 | 10   | Packaging quality             | Level of satisfaction on packaging                           |
 | 11   | Additional options            | Level of satisfaction on extra options                       |
 | 12   | Reviews and ratings           | Level of satisfaction on reviews and rating information      |
